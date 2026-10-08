@@ -1,0 +1,17 @@
+{
+  "v": 3,
+  "createdOnFiles": {"v": 1, "at": "2026-10-08T22:00:00Z"},
+  "title": "Premier App Mockup",
+  "launch": {"view": "canvas"},
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {"x": 0, "y": 0, "w": 560, "h": 960, "title": "Now card — light"},
+    "Dark.dc.html": {"x": 640, "y": 0, "w": 560, "h": 960, "title": "Now card — dark"},
+    "Evening.dc.html": {"x": 1280, "y": 0, "w": 560, "h": 960, "title": "End of day"}
+  },
+  "order": ["Main.dc.html", "Dark.dc.html", "Evening.dc.html"],
+  "notes": {
+    "heading": {"x": 0, "y": -260, "text": "Premier — Now card", "kind": "title1", "maxW": 1840}
+  },
+  "designSystems": []
+}
