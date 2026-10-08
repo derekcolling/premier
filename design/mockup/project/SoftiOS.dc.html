@@ -47,7 +47,12 @@ button{font:inherit;cursor:pointer}
         <p style="margin: 8px 0 0; font-size: 12px; font-weight: 500; color: rgba(255, 255, 255, 0.82)">First at 4:15 · done by 9:00</p>
       </section>
 
-      <section aria-label="Today's schedule" style="margin: 14px 0 0 18px; flex: 1; min-height: 0; box-sizing: border-box; border-radius: 28px 0 0 0; background: #F5F5F5; padding: 20px 28px 0 22px; display: flex; flex-direction: column">
+      <div aria-hidden="true" style="height: 20px; flex-shrink: 0; position: relative">
+        <div style="position: absolute; left: 0; top: 0; width: 20px; height: 20px; background: radial-gradient(circle at 100% 100%, transparent 20px, {{cardColor}} 20.5px)"></div>
+        <div style="position: absolute; right: 0; top: 0; width: 20px; height: 20px; background: radial-gradient(circle at 0% 0%, transparent 20px, #F5F5F5 20.5px)"></div>
+      </div>
+
+      <section aria-label="Today's schedule" style="margin: 0 0 0 18px; flex: 1; min-height: 0; box-sizing: border-box; border-radius: 28px 0 0 0; background: #F5F5F5; padding: 20px 28px 0 22px; display: flex; flex-direction: column">
         <div style="display: flex; align-items: center; justify-content: space-between">
           <h2 style="margin: 0; font-family: 'Jost', sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #000000">Your schedule</h2>
           <a href="#" style="min-height: 44px; display: flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 600; text-decoration: none">Full day <span aria-hidden="true">›</span></a>
